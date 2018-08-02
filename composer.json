@@ -1,0 +1,35 @@
+{
+  "name": "nixsolutions/yandex-php-oauth",
+  "description": "Yandex PHP OAuth library.",
+  "keywords":["yandex","sdk", "OAuth"],
+  "type":"library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "nixsolutions/yandex-php-common": "@dev"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.0",
+    "php-coveralls/php-coveralls": "^2.0",
+    "phpunit/phpunit": "~5.0"
+  },
+  "authors": [
+    {
+      "name": "Kirill Litvinov",
+      "email": "Kirill.Litvinov@nixsolutions.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Yandex": "src/",
+      "Yandex\\Tests": "tests/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "vendor-alias": "nixsolutions",
+      "url": "https://kirlitvinov@bb.yandex-team.ru/scm/~kirlitvinov/yandex-php-common.git"
+    }
+  ]
+}
