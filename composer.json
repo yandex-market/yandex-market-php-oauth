@@ -6,7 +6,7 @@
   "license": "MIT",
   "minimum-stability": "dev",
   "require": {
-    "yandex-market/yandex-market-php-common": "1.0.0"
+    "yandex-market/yandex-market-php-common": "1.*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0",
